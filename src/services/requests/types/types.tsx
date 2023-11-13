@@ -9,6 +9,11 @@ export interface Product {
     updatedAt: string;
 }
 
+export interface ProductResponse {
+    products: Product[];
+    count: number;
+  }
+
 export type ProductsParams = {
     page: number;
     rows: number;

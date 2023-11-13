@@ -1,5 +1,5 @@
 
-import { Product, ProductsParams } from './types';
+import { Product, ProductsParams } from '../types/types';
 import axios, { AxiosResponse } from 'axios';
 
 export default class Request {

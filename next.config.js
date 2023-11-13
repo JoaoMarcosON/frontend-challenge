@@ -7,5 +7,8 @@ const nextConfig = {
       // your project has ESLint errors.
       ignoreDuringBuilds: true,
     },
+    images: {
+      domains: ['mks-sistemas.nyc3.digitaloceanspaces.com'],
+    },
   };
   

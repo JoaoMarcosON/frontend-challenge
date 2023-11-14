@@ -52,10 +52,10 @@ export default class MyDocument extends Document {
                     <link rel="preconnect" href="https://fonts.googleapis.com/" />
                     <link rel="preconnect" href="https://fonts.gstatic.com/" />
                     <link
-                        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto:wght@100;400&family=Poppins:wght@100;200;300;400;600&display=swap"
-                        rel="stylesheet"
-                    />
-                 </Head>
+                        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap"
+                        rel="stylesheet">
+                    </link>
+                </Head>
                 <body>
                     <Main />
                     <NextScript />

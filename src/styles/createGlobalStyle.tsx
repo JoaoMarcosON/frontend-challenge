@@ -13,8 +13,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     html {
-    font-family: 'Poppins';
-    font-size: 62.5%;
+        font-family: 'Montserrat';
+        font-size: 62.5%;
     }
 
     @media screen and (max-width: 968px) {

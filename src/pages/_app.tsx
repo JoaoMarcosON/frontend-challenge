@@ -13,8 +13,8 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
             <GlobalStyle />
             <ThemeProvider theme={{}}>
                 <Head>
-                    <title>Lista de tarefas</title>
-                    <meta name="description" content="Lista de tarefas" />
+                    <title>mks-frontend-challenge</title>
+                    <meta name="description" content="Desafio realizado por João Marcos" />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
                 <QueryClientProvider client={queryClient}>

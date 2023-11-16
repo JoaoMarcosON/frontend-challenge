@@ -56,7 +56,7 @@ export default function CartModal({ onClose }: CartModalProps) {
                             removeFromCart={() => removeCartItem(item.product.id)}
                             removeFromCartById={() => removeCartById(item.product.id)}
                         />
-                    ))};
+                    ))}
                 </ContainerItem>
                 <PurchaseContainer>
                     <ContainerPricePurchase>

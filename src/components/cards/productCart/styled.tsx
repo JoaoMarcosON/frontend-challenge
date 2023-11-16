@@ -147,4 +147,5 @@ export const RemoveButton = styled.button`
   margin-top: -1rem;
   margin-left: -1rem;
   cursor: pointer;
+  border: none;
 `;

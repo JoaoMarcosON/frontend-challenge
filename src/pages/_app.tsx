@@ -1,9 +1,10 @@
-import React, { StrictMode } from 'react'
-import { type AppProps } from 'next/app'
-import Head from 'next/head'
-import { GlobalStyle } from '../styles/createGlobalStyle'
-import { ThemeProvider } from 'styled-components'
+import React, { StrictMode } from 'react';
+import { type AppProps } from 'next/app';
+import Head from 'next/head';
+import { GlobalStyle } from '../styles/createGlobalStyle';
+import { ThemeProvider } from 'styled-components';
 import { QueryClient, QueryClientProvider } from 'react-query';
+import { CartProvider } from '../context/cartContext/CartProvider';
 
 const queryClient = new QueryClient();
 
@@ -18,11 +19,13 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
                 <QueryClientProvider client={queryClient}>
+                <CartProvider>
                 <Component {...pageProps} />
+                </CartProvider>
                 </QueryClientProvider>
             </ThemeProvider >
         </StrictMode>
     )
-}
+};
 
 export default App

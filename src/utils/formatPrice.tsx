@@ -7,4 +7,4 @@ export default function formatPrice(value: number | string) {
         minimumFractionDigits: 0,
     });
     return formattedPrice
-}
+};

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Document, {
     type DocumentInitialProps,
     type DocumentContext,
@@ -6,9 +6,8 @@ import Document, {
     Head,
     Main,
     NextScript
-} from 'next/document'
-
-import { ServerStyleSheet } from 'styled-components'
+} from 'next/document';
+import { ServerStyleSheet } from 'styled-components';
 
 export default class MyDocument extends Document {
 

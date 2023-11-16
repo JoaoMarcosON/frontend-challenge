@@ -1,18 +1,18 @@
 export interface Product {
-    id: number;
+    id: string;
     name: string;
     brand: string;
     description: string;
     photo: string;
-    price: string;
+    price: number;
     createdAt: string;
     updatedAt: string;
-}
+};
 
 export interface ProductResponse {
     products: Product[];
     count: number;
-  }
+};
 
 export type ProductsParams = {
     page: number;
@@ -25,9 +25,9 @@ export enum SortBy {
     ID = 'id',
     NAME = 'name',
     PRICE = 'price',
-}
+};
 
 export enum OrderBy {
     DESC = 'DESC',
     ASC = 'ASC',
-}
+};
